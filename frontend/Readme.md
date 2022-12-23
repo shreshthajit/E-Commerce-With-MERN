@@ -1,3 +1,4 @@
-We did some changes in App.js to avoid duplicate value
-We edited Store.js
-We edited ProductScreen.js
+ Create cart Screen
+ 1.Create 2 column
+ 2.Display Item list
+ 3.Create action column
