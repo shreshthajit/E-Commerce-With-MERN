@@ -72,7 +72,6 @@ const ProductScreen = () => {
       return;
     }
        
-
     cxtDispatch({
       type:'CART_ADD_ITEM',
       payload: {...product,quantity},
