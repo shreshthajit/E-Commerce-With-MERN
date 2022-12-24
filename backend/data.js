@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id:'1',
+       //_id:'1',
       name: "Nike Slim Shirt",
       slug: "nike-slim",
       category: "Shirts",
@@ -14,7 +14,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id:'2',
+      // _id:'2',
         name: "Nike Slim skirt",
         slug: "nike-skart",
         category: "Shirts",
@@ -27,7 +27,7 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id:'3',
+        // _id:'3',
         name: "Nike Slim pant",
         slug: "nike-pant",
         category: "Shirts",
@@ -40,9 +40,9 @@ const data = {
         description: 'high quality shirt',
       },
       {
-        _id:'4',
-        name: "Nike Slim pant",
-        slug: "nike-pant",
+        // _id:'4',
+        name: "Nike Slim shari",
+        slug: "nike-dhuti",
         category: "Shirts",
         image: "./images/p4.jpg",
         price: 120,

@@ -1,8 +1,7 @@
  Here we will implement:
 
- 1.Sign in form
- 2.email and password
- 3.Signin button
-
- Here we implemented a new screen called SigninScreen
- We have added a new route to app.js
+ 1.Product model
+ 2.User model
+ 3.seed route
+ 4.use route in server.js
+ 5.seed sample product
