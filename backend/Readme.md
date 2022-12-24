@@ -1,2 +1,3 @@
-We created a new api in server.js
-We added _id for each card
+1.create user model
+2.seed sample users
+3.create user routes
