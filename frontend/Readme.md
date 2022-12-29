@@ -1,11 +1,18 @@
- Here we will create  SignupScreen
+ Here we will implement select payment method screen by doing the following:
 
  1. input forms
- 2. handleSubmit
- 3. we need a backend api
+ 2. handle submit
 
-so
-1. We have made a form in SignupScreen.js
-2. We have made a route in backend(in routes.js file)
-3. We have included the SingupScreen.js file in App.js file
+ So we have done the followings:
+ 1. Created PaymentMethodScreen.js
+ in PaymentMethodScreen.js
+ a) used navigate hook to go to next section
+ b) took value from state to check weather there is a shipping address before going to payment section
+ c) used context hook to store the value of payment method using dispatch in submit handler
+ d) used the PayementMethodScreen.js component in App.js file
+ e) in store.js file
+    --> updated reducer function with a new action called SAVE_SHIPPING_METHOD
+    --> updated the cart of initial state with payment method section
+    --> 
+f) in App.js file under signoutHandler we removed paymentmethod from localstorage.
 
